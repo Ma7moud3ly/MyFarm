@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">إدارة المزروعات</string>
+    <string name="expenses">المصروفات</string>
+    <string name="cultivation">الزراعات</string>
+    <string name="add_cultivation">إضافة زراعة</string>
+    <string name="add_expenses">إضافة مصروفات</string>
+    <string name="revenues">الإيرادات</string>
+    <string name="add_revenues">إضافة إيرادات</string>
+    <string name="done_saving">تم الحفظ</string>
+    <string name="about">عن التطبيق</string>
+</resources>

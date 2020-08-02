@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="3dp"
+    android:background="@color/app_color4"
+    android:layoutDirection="rtl">
+
+    <TextView
+        android:id="@+id/cultivation_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="@font/majalla"
+        android:text="ذرة     50 فدان"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

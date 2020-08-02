@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_myfarm" default="compile.module.myfarm">
+  <dirname property="module.myfarm.basedir" file="${ant.file.module_myfarm}"/>
+  
+  <property name="module.jdk.home.myfarm" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.myfarm" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.myfarm" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.myfarm" value="-encoding UTF-8 -source 1.7 -target 1.7 ${compiler.args}"/>
+  
+  <property name="myfarm.output.dir" value="${module.myfarm.basedir}/build/classes/production/MyFarm"/>
+  <property name="myfarm.testoutput.dir" value="${module.myfarm.basedir}/build/classes/test/MyFarm"/>
+  
+  <path id="myfarm.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="myfarm.module.production.classpath">
+    <path refid="${module.jdk.classpath.myfarm}"/>
+  </path>
+  
+  <path id="myfarm.runtime.production.module.classpath">
+    <pathelement location="${myfarm.output.dir}"/>
+  </path>
+  
+  <path id="myfarm.module.classpath">
+    <path refid="${module.jdk.classpath.myfarm}"/>
+    <pathelement location="${myfarm.output.dir}"/>
+  </path>
+  
+  <path id="myfarm.runtime.module.classpath">
+    <pathelement location="${myfarm.testoutput.dir}"/>
+    <pathelement location="${myfarm.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.myfarm">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.myfarm">
+    <patternset refid="excluded.from.module.myfarm"/>
+  </patternset>
+  
+  
+  <target name="compile.module.myfarm" depends="compile.module.myfarm.production,compile.module.myfarm.tests" description="Compile module MyFarm"/>
+  
+  <target name="compile.module.myfarm.production" depends="register.custom.compilers" description="Compile module MyFarm; production classes"/>
+  
+  <target name="compile.module.myfarm.tests" depends="register.custom.compilers,compile.module.myfarm.production" description="compile module MyFarm; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.myfarm" description="cleanup module">
+    <delete dir="${myfarm.output.dir}"/>
+    <delete dir="${myfarm.testoutput.dir}"/>
+  </target>
+</project>

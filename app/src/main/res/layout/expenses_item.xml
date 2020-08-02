@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layoutDirection="rtl">
+
+    <TextView
+        android:id="@+id/date_item"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:background="@color/app_color3"
+        android:elevation="1dp"
+        android:gravity="center"
+        android:minWidth="70dp"
+        android:padding="5dp"
+        android:text="التاريخ"
+        android:textColor="#000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fixed_labour_item"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:background="@color/app_color2"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:minWidth="70dp"
+        android:padding="5dp"
+        android:text="عمالة ثابتة"
+        android:textColor="#000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dynamic_labour_item"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:background="@color/app_color2"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:minWidth="70dp"
+        android:padding="5dp"
+        android:text="عمالة متغيرة"
+        android:textColor="#000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/machines_item"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:background="@color/app_color2"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:minWidth="70dp"
+        android:padding="5dp"
+        android:text="آلات"
+        android:textColor="#000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/service_item"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:background="@color/app_color2"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:minWidth="70dp"
+        android:padding="5dp"
+        android:text="خدمة أرض"
+        android:textColor="#000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fertilization_item"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:background="@color/app_color2"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:minWidth="70dp"
+        android:padding="5dp"
+        android:text="تسميد"
+        android:textColor="#000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/insecticides_item"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:background="@color/app_color2"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:minWidth="70dp"
+        android:padding="5dp"
+        android:text="مبيدات "
+        android:textColor="#000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/irrigation_item"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:background="@color/app_color2"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:minWidth="70dp"
+        android:padding="5dp"
+        android:text="شبكة رى"
+        android:textColor="#000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/electricity_item"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:background="@color/app_color2"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:minWidth="70dp"
+        android:padding="5dp"
+        android:text="كهرباء"
+        android:textColor="#000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fuels_item"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:background="@color/app_color2"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:minWidth="70dp"
+        android:padding="5dp"
+        android:text="محروقات"
+        android:textColor="#000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/seeds_item"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:background="@color/app_color2"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:minWidth="70dp"
+        android:padding="5dp"
+        android:text="تقاوى"
+        android:textColor="#000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/transportation_item"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:background="@color/app_color2"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:minWidth="70dp"
+        android:padding="5dp"
+        android:text="نقل"
+        android:textColor="#000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/extras_item"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:background="@color/app_color2"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:minWidth="70dp"
+        android:padding="5dp"
+        android:text="مصروفات نثرية"
+        android:textColor="#000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sub_total_item"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:background="@color/color2"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:minWidth="70dp"
+        android:padding="5dp"
+        android:text="الإجمالى"
+        android:textColor="#000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/delete_item"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:background="@color/colorAccent"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:minWidth="70dp"
+        android:padding="5dp"
+        android:text="حذف"
+        android:textColor="#000"
+        android:clickable="true"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</TableRow>
+
+
